@@ -68,9 +68,9 @@ public class bookAdapter extends BaseAdapter
 		
 		v.textEditons.setText(book.getEdition());
 		v.textId.setText(Long.toString(book.getId()));
-		v.textIsbn.setTag(book.getIsbn());
+		v.textIsbn.setText(book.getIsbn());
 		v.textNunPags.setText(Integer.toString(book.getNun_pages()));
-		v.textTitle.setTag(book.getTitle());	
+		v.textTitle.setText(book.getTitle());	
 		
 		return view;
 	}
